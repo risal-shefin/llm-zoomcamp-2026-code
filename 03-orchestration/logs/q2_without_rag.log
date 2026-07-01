@@ -1,0 +1,19 @@
+2026-07-01T21:37:57.207562Z INFO ❌ Response WITHOUT RAG (no retrieved context):
+Kestra 1.1 introduced several exciting new features and improvements. Here are 5 major features with brief descriptions:
+
+1.  **Topology View (Flows Visualization):** This was a significant addition, providing a visual representation of how your Kestra flows are interconnected. It allows users to see dependencies between different flows, making it much easier to understand the overall structure of complex data pipelines and identify upstream/downstream relationships at a glance.
+
+2.  **Plugin Management UI:** Kestra 1.1 introduced a dedicated user interface for managing plugins directly within the Kestra application. This greatly simplifies the process of installing, updating, and removing plugins, making it more accessible for users without needing to manually interact with server files or command-line tools.
+
+3.  **Namespace-Level Defaults:** This feature allowed users to define default values for common task properties (like `concurrency`, `retries`, `timeout`, etc.) at the namespace level. Instead of repeating these configurations for every single flow or task within a namespace, you could set them once, reducing boilerplate code and making it easier to maintain consistent operational policies across related workflows.
+
+4.  **Flow Input Schemas and UI Form Generation:** Kestra 1.1 enhanced the definition of flow inputs by allowing users to specify a JSON schema for them. This schema not only validates the inputs when a flow is triggered but also automatically generates a user-friendly form in the Kestra UI for manual triggers. This significantly improves the user experience for triggering flows, ensuring correct input and making them more accessible to non-technical users.
+
+5.  **Blueprint and Flow Template Improvements:** While blueprints were introduced earlier, Kestra 1.1 brought significant improvements to their usability and discoverability. It refined the concept of templates and blueprints, making it easier to create reusable flow patterns and share them within an organization. This fostered best practices and accelerated the development of new workflows by providing ready-to-use building blocks.
+
+🤔 Did you notice that this response seems to be:
+- Incorrect?
+- Vague/generic?
+- Listing features that haven't been added in exactly this version but rather a long time ago?
+
+👉 This is why context matters! Run `2_chat_with_rag.yaml` to see the accurate, context-grounded response.
